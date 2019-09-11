@@ -1,7 +1,25 @@
-.burger-panel {
+.main {
+	width: 100%;
 	display: flex;
-	margin: 100%;
+	background-color: red;
+	height: 500px;
+	justify-content: flex-start;
 }
-.burger-search {
-	
+
+.main .search {
+	width: 60%;
+	height: 100px;
+	background-color: #0EC60A;
+}
+
+.main .category {
+	width: 35%;
+	height: 100px;
+	background-color: #0B27B4;
+}
+
+.main .shop {
+	width: 15%;
+	height: 100px;
+	background-color: #D5CE0C;
 }
