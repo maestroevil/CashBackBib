@@ -1,3 +1,7 @@
+.burger {
+	width: 30%;
+}
+
 .main {
 	width: 100%;
 	display: flex;
@@ -11,6 +15,16 @@
 	background-color: #3467a5;
 	border: 0px;
 	padding: 0px;
+	align-items: center;
+	flex-flow: row nowrap;
+}
+
+.main .search i {
+	width: 25%;
+}
+
+.main .search input {
+	width: 75%;
 }
 
 .main .category {
