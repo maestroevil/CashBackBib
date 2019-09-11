@@ -1,0 +1,19 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+
+.sort-block {
+	width: 150px;
+	height: 99px;
+	background: #0a203b;
+}
+
+.sort-block ul li {
+	width: 100%;
+	height: 33px;
+	color: #97a2ad;
+}
