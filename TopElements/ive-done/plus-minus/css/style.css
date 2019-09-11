@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+
+.block {
+	width: 70px;
+	height: 32px;
+	border-radius: 1px;
+	overflow: hidden;
+}
+.block .normal-area {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: #0a203b;
+	text-align: center;
+}
+
+.block .hover-area {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background: #2da5da;
+	text-align: center;
+}
+
+.block .symbl {
+	padding-top: 30%;
+	font-size: 10px;
+}
+
+.block .smbl-left {
+	color: #97a2ad;
+}
+
+.block .smbl-right {
+	color: #fff;
+}
+
