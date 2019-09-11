@@ -1,25 +1,26 @@
 .main {
 	width: 100%;
 	display: flex;
-	background-color: red;
 	height: 500px;
 	justify-content: flex-start;
 }
 
 .main .search {
 	width: 60%;
-	height: 100px;
-	background-color: #0EC60A;
+	height: 50px;
+	background-color: #3467a5;
+	border: 0px;
+	padding: 0px;
 }
 
 .main .category {
 	width: 35%;
-	height: 100px;
-	background-color: #0B27B4;
+	height: 50px;
+	background-color: #3086c0;
 }
 
 .main .shop {
 	width: 15%;
-	height: 100px;
-	background-color: #D5CE0C;
+	height: 50px;
+	background-color: #2da5da;
 }
