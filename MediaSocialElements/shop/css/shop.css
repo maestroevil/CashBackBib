@@ -9,42 +9,37 @@
 	justify-content: flex-start;
 }
 
-.main .search {
-	width: 60%;
-	height: 40px;
+.search {
 	background-color: #3467a5;
+	height: 40px;
+	display: flex;
 }
 
-.main .search .searchIcon {
-	width: 20%;
+.searchIconSection{
+	width: 30px;
 	height: 100%;
-	top: 5px;
-	text-align: center;
-	font-size: 20px;
-	background-color: #3467a5;
-	color: #99ccff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.searchInputSection {
+	height: 100%;
+	display: flex;
+	border: 0px;
 }
 
 .main .category {
-	width: 30%;
+	width: 100px;
 	height: 40px;
 	background-color: #3086c0;
 }
 
 .main .shop {
-	width: 10%;
+	width: 50px;
 	height: 40px;
 	background-color: #2da5da;
 	color: #ffffff;
 	border: 0px;
 	margin: 0 auto;
-}
-
-.main .shop a {
-	text-align: center;
-}
-
-.main .shop a:hover {
-	background-color: #32B8F3;
-	color: #111;
 }
