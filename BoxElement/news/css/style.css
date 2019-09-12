@@ -1,24 +1,25 @@
 .header {
-	width :600px;
+	width :80%;
 	height :70px;
 	border :1px solid blue;
 	background: blue;
 	padding: 20px;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .avatar
 {
-	width :50px;
+	width : 60px;
 	height :50px;
 	border :1px solid black;
 	background: white;
 }
  
-.p
+.text
 {
-   width: 100px;
-    margin: 10px auto;
-    padding: 100px;
+	left: 20px;
+   width: 80%;
     background: white;
    
 }
