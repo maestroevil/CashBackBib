@@ -13,26 +13,23 @@
 	background-color: #3467a5;
 	height: 40px;
 	display: flex;
-}
-
-.searchIconSection{
-	width: 30px;
-	height: 100%;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.searchInputSection {
-	height: 100%;
-	display: flex;
+.searchIcon{
+	width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  margin-right: -26px;
+  position: relative;
+  z-index: 1;
 }
 
-.searchInputSection input {
-	background: none;
-	border: 0px;
-	font-size: 15px;
-	padding: 5px;
+.search input {
+	height: 20px;
+	padding-left: 26px;
 }
 
 .main .category {
