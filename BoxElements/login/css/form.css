@@ -1,0 +1,40 @@
+body{
+	background-color: red;
+}
+.zero{
+	width: 250px;
+}
+.form-login{
+	width: 100%;
+	padding: 45px 25px 30px 25px;
+	background-color: #2da5da;
+}
+
+.form-login input {
+	width: 95%;
+	height: 40px;
+	margin-bottom: 15px;
+	padding-left: 10px;	
+}
+.form-login p{
+	color: white;
+}
+.form-login a {
+	display: block; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.button-5{
+	background-color: #025a85;
+	padding: 15px 20px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+
