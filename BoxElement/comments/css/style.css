@@ -1,0 +1,46 @@
+.zero{
+	width: 50%;
+	height: 500px;
+}
+
+.comments{
+	width: 100%;
+	display: flex;
+	
+	justify-content: flex-start;
+	background-color: var(--color-dark-blue);
+	padding: 25px;
+}
+.comments .avatar-block {
+	width: 20%;
+}
+.comments .avatar-block  .avatar {
+	text-align: center;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+}
+.comments .avatar-block  .avatar .fas{
+	
+	font-size: 1em;
+	color: #1b96d1;
+}
+
+.comments .text-block {
+	width: 70%;
+}
+.comments .text-block p {
+	margin: 0px;
+	padding: 0px;
+}
+.comments .text-block .title {
+	font-weight: bold;
+	
+}
+.comments .text-block .date {
+	margin-top: 15px;
+	
+}
+.comments .text-block .date p{
+	color:var(--color-blue);
+}
