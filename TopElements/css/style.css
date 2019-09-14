@@ -11,3 +11,20 @@ ul {
 	margin: 0;
 }
 
+.block70 {
+	margin: 15px;
+	width: 70px;
+	height: 71px;
+	background: #0a203b;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 1px;
+}
+
+.block70 i {
+	width: 19px;
+	height: 18px;
+	color: #97a2ad;
+	padding-top: 28px;
+}
+
