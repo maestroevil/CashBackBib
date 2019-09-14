@@ -10,7 +10,24 @@
 .select .selectHeader {
   width: 100%;
   height: 25%;
-  background: #2da5da;
-  display: flex;
-  justify-content: ctnter;
+  background: #e90f0f;
+  flex-direction: column;
+}
+
+.select .oneProduct {
+  width: 100%;
+  height: 25%;
+  background: #3d0fe9;
+}
+
+.select .twoProduct {
+  width: 100%;
+  height: 25%;
+  background: #8af73a;
+}
+
+.select .twoButtons {
+  width: 100%;
+  height: 25%;
+  bacground: #c7de06;
 }
