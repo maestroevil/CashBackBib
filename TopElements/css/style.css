@@ -19,12 +19,20 @@ ul {
 	text-align: center;
 	overflow: hidden;
 	border-radius: 1px;
+	color: #97a2ad;
 }
 
 .block70 i {
 	width: 19px;
 	height: 18px;
-	color: #97a2ad;
 	padding-top: 28px;
 }
 
+.block70:hover {
+	background: #2da5da;
+	color: white;
+}
+
+.block70:active {
+	background: #53bdec;
+}
