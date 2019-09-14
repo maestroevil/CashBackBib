@@ -1,0 +1,16 @@
+.select {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background: #2da5da;
+}
+
+.select .selectHeader {
+  width: 100%;
+  height: 25%;
+  background: #2da5da;
+  display: flex;
+  justify-content: ctnter;
+}
