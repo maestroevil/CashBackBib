@@ -10,50 +10,160 @@
 .select .selectHeader {
   width: 100%;
   height: 25%;
-  background: #e90f0f;
+  background: #2da5da;
   display: flex;
   flex-direction: row;
+}
+
+.select .selectHeader p {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .select .selectHeader .quantity {
   width: 20%;
   height: 100%;
-  background: #2da5da;
-  text-align: center;
-  font-weight: bold;
-  font-size: 23px;
 }
 
-.select .selectHeader .titleProductOne {
+.select .selectHeader .titleProduct {
   width: 60%;
   height: 100%;
-  background: #2da5da;
-  text-align: center;
-  font-size: 23px;
 }
 
-.select .selectHeader .titleProductTwo {
+.select .selectHeader .priceProduct {
   width: 20%;
-  height: 100;
-  background: #2da5da;
-  text-align: center;
-  font-size: 23px;
+  height: 100%;
 }
 
 .select .oneProduct {
   width: 100%;
   height: 25%;
-  background: #3d0fe9;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background: #3467a5;
+}
+
+.select .oneProduct p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.select .oneProduct .numbering {
+  width: 10%;
+  height: 100%;
+  font-size: 23px;
+}
+
+.select .oneProduct .plusMinus {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.select .oneProduct .plusMinus .plus {
+  width: 100%;
+  height: 50%;
+  background: #8af73a;
+}
+
+.select .oneProduct .plusMinus .minus {
+  width: 100%;
+  height: 50%;
+  background: #111;
+}
+
+.select .oneProduct .descriptionProductOne {
+  width: 60%;
+  height: 100%;
+}
+
+.select .oneProduct .priceProductOne {
+  width: 20%;
+  height: 100%;
+  font-size: 20px;
 }
 
 .select .twoProduct {
   width: 100%;
   height: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background: #2da5da;
+}
+
+.select .twoProduct p {
+  text-align: center;
+  color: #ffffff;
+}
+
+.select .twoProduct .numberingTwo {
+  width: 10%;
+  height: 100%;
+  font-size: 23px;
+  background: #2894c4;
+
+}
+
+.select .twoProduct .plusMinusTwo {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.select .twoProduct .plusMinusTwo .plustwo {
+  width: 100%;
+  height: 50%;
   background: #8af73a;
+}
+
+.select .twoProduct .plusMinusTwo .minustwo {
+  width: 100%;
+  height: 50%;
+  background: #111;
+}
+
+.select .twoProduct .descriptionProductTwo {
+  width: 60%;
+  height: 100%;
+}
+
+.select .twoProduct .priceProductTwo {
+  width: 20%;
+  height: 100%;
+  font-size: 20px;
 }
 
 .select .twoButtons {
   width: 100%;
   height: 25%;
-  bacground: #c7de06;
+  background: #c7de06;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.select .twoButtons p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 23px;
+}
+
+.select .twoButtons .viewcart {
+  width: 50%;
+  height: 100%;
+  background: #2da5da;
+}
+
+.select .twoButtons .checkout {
+  width: 50%;
+  height: 100%;
+  background: #339933;
 }
