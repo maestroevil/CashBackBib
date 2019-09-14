@@ -11,7 +11,33 @@
   width: 100%;
   height: 25%;
   background: #e90f0f;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+}
+
+.select .selectHeader .quantity {
+  width: 20%;
+  height: 100%;
+  background: #2da5da;
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.select .selectHeader .titleProductOne {
+  width: 60%;
+  height: 100%;
+  background: #2da5da;
+  text-align: center;
+  font-size: 23px;
+}
+
+.select .selectHeader .titleProductTwo {
+  width: 20%;
+  height: 100;
+  background: #2da5da;
+  text-align: center;
+  font-size: 23px;
 }
 
 .select .oneProduct {
