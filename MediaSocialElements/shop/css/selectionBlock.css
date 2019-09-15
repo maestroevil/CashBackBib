@@ -13,6 +13,7 @@
   background: #2da5da;
   display: flex;
   flex-direction: row;
+	border: 1px solid white;
 }
 
 .select .selectHeader p {
@@ -44,6 +45,7 @@
   justify-content: center;
   flex-direction: row;
   background: #3467a5;
+	border: 1px solid white;
 }
 
 .select .oneProduct p {
@@ -95,6 +97,7 @@
   justify-content: center;
   flex-direction: row;
   background: #2da5da;
+	border: 1px solid white;
 }
 
 .select .twoProduct p {
