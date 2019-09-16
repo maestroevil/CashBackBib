@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5{
 	text-transform: uppercase;
 }
 .gradient-light-dark-blue{
-	background: linear-gradient(30deg,var(--color-light-blue),var(--color-dark-blue));	
+	background: linear-gradient(220deg,var(--color-light-blue),var(--color-dark-blue));	
 }
 
 .gradient-light-dark-red{

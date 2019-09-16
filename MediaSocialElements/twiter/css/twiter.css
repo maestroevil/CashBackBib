@@ -1,3 +1,103 @@
 .zero {
-  width: 40%;
+  width: 35%;
+}
+
+.twiter {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.personal-info {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.personal-info .name {
+  width: 100%;
+  height: 40%;
+}
+
+.personal-info .name p {
+  font-size: 24px;
+  text-align: center;
+  color: #ffff;
+}
+
+.personal-info .name .per {
+  font-size: 14px;
+  text-align: center;
+}
+
+.personal-info .avatar {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-info .avatar .avatar-selection-first {
+  width: 150px;
+  height: 150px;
+  background: #66ccff;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-info .avatar .avatar-selection-second {
+  width: 140px;
+  height: 140px;
+  background: #3365a4;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-info .avatar .buxarik {
+  height: 90%;
+  width: 90%;
+  border-radius: 60%;
+}
+
+.personal-info .followers {
+  width: 100%;
+  height: 10%;
+}
+
+.personal-info .followers {
+  font-size: 8px;
+  text-align: center;
+  color: #ffff;
+}
+
+.follow {
+  width: 100%;
+  height: 20%;
+  background: #25467b;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid white;
+}
+
+.follow .button {
+  width: 80%;
+  height: 55%;
+  background: #4884bf;
+  margin-top: 16px;
+  border-radius: 4px;
+}
+
+.follow .button p {
+  font-size: 15px;
+  text-align: center;
+  color: #ffff;
 }
