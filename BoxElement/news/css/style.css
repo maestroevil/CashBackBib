@@ -1,21 +1,10 @@
-body{
-	margin: 0px;
-	padding: 0px;
-	color: white;
-	font-family: 'IBM Plex Sans', sans-serif;
-}
-:root{
-	--color-light-blue:#1b96d1;
-	--color-dark-blue:#082539;
-	--color-blue:#111c59;
-	--color-red: #cf2555;
-	--color-green: #339933;
-}
+
+
 .header {
 	width :80%;
 	height :70px;
 	border :1px solid blue;
-	background: blue;
+	background: #082539;
 	padding: 20px;
 	display: flex;
 	justify-content: flex-start;
@@ -23,6 +12,7 @@ body{
 
 .avatar
 {
+	text-align: center;
 	width : 60px;
 	height :50px;
 	border :1px solid black;
@@ -32,9 +22,14 @@ body{
 .text
 {
 	left: 20px;
-   width: 80%;
+   width: 50%;
+   margin: 30px;
     background: white;
    
+}
+.title
+{
+	font-weight: bold;
 }
 
 
