@@ -1,9 +1,10 @@
 /*<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i,600,600i,700&display=swap" rel="stylesheet">*/
 /*<link rel="stylesheet" type="text/css" href="../../style.css">*/
+
 body{
 	margin: 0px;
 	padding: 0px;
-	color: white;
+	color: black;
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 :root{
@@ -14,3 +15,31 @@ body{
 	--color-green: #339933;
 }
 
+h1,h2,h3,h4,h5{
+	text-transform: uppercase;
+}
+.gradient-light-dark-blue{
+	background: linear-gradient(30deg,var(--color-light-blue),var(--color-dark-blue));	
+}
+
+.gradient-light-dark-red{
+	background: linear-gradient(30deg,var(--color-light-blue),var(--color-red));	
+}
+.gradient-green-dark{
+	background: linear-gradient(30deg,var(--color-green),var(--color-blue));	
+}
+
+
+.bold-100{
+	font-weight: 100;
+}
+.bold-300{
+	font-weight: 300;
+}
+.bold-600{
+	font-weight: 600;
+}
+.kv{
+	width: 50px;
+	height: 50px;
+}
