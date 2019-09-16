@@ -1,3 +1,16 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+:root{
+	--color-light-blue:#1b96d1;
+	--color-dark-blue:#082539;
+	--color-blue:#111c59;
+	--color-red: #cf2555;
+	--color-green: #339933;
+}
 .header {
 	width :80%;
 	height :70px;
