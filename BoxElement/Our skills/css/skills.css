@@ -8,4 +8,25 @@
   background: #2da5da;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+
+.skills .name {
+  width: 100%;
+  height: 20%;
+}
+
+.skills .name h2 {
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.skills .statistics {
+  width: 100%;
+  height: 60%;
+}
+
+.skills .emailUs {
+  width: 100%;
+  height: 20%;
 }
