@@ -1,3 +1,11 @@
 .zero {
-  
+  width: 40%;
+}
+
+.skills {
+  width: 100%;
+  height: 400px;
+  background: #2da5da;
+  display: flex;
+  justify-content: center;
 }
