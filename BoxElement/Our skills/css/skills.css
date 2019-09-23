@@ -14,20 +14,21 @@
 
 .skills .name {
   width: 100%;
-  height: 20%;
+  height: 10%;
   color: #ffffff;
-  margin: 0px;
+  display: flex;
+  align-items: center;
 }
 
 .skills .name h2 {
   color: #ffffff;
   margin: 0px;
-  text-align: left;
+  text-align: center;
 }
 
 .skills .statistics {
   width: 100%;
-  height: 60%;
+  height: 75%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -70,7 +71,7 @@
 
 .skills .email-us {
   width: 100%;
-  height: 20%;
+  height: 15%;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -78,10 +79,29 @@
 
 .skills .email-us .textbutton {
   width: 50%;
-  height: 100%
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.skills .email-us .textbutton p {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0px;
+  text-align: left;
 }
 
 .skills .email-us .button {
   width: 50%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-dark-blue);
+}
+
+.skills .email-us .button p {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0px;
 }
