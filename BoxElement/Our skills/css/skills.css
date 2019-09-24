@@ -4,7 +4,6 @@
 
 .skills {
   width: 100%;
-  height: 400px;
   background: var(--color-light-blue);
   display: flex;
   justify-content: center;
@@ -14,8 +13,8 @@
 
 .skills .name {
   width: 100%;
-  height: 10%;
   color: #ffffff;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
 }
@@ -28,7 +27,6 @@
 
 .skills .statistics {
   width: 100%;
-  height: 75%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -71,15 +69,15 @@
 
 .skills .email-us {
   width: 100%;
-  height: 15%;
   display: flex;
+  padding-top: 20px;
   justify-content: center;
   flex-direction: row;
 }
 
 .skills .email-us .textbutton {
   width: 50%;
-  height: 100%;
+  height: 60px;
   display: flex;
   align-items: center;
 }
@@ -93,7 +91,7 @@
 
 .skills .email-us .button {
   width: 50%;
-  height: 100%;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
