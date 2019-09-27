@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+
+ul, h1 {
+	padding: 0;
+	margin: 0;
+}
+
+.tooltip {
+	margin: 15px;
+	width: 106px;
+	height: 32px;
+	background-color: var(--color-dark-blue);
+	text-align: center;
+	color: white;
+	font-family: 'IBM Plex Sans', sans-serif;
+	padding-top: 6px;
+}
+
+.tooltip h1 {
+	font-size: 14px;
+}
+
+.tooltip:after {
+	content: "";
+	display: block;
+	margin-left: 50px;
+	margin-top: 5px;
+	transform: rotate(45deg);
+	width: 5px;
+	height: 5px;
+	background-color: var(--color-dark-blue);
+}

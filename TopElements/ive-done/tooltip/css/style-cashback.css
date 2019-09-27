@@ -1,0 +1,16 @@
+/*<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i,600,600i,700&display=swap" rel="stylesheet">*/
+/*<link rel="stylesheet" type="text/css" href="../../style.css">*/
+body{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+:root{
+	--color-light-blue:#1b96d1;
+	--color-dark-blue:#082539;
+	--color-blue:#111c59;
+	--color-red: #cf2555;
+	--color-green: #339933;
+}
+
