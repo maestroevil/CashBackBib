@@ -1,3 +1,11 @@
+.zero {
+  width: 70%;
+}
+
+.colorhed {
+  background-color: red;
+}
+
 .color1 {
   background-color: red;
 }
@@ -8,4 +16,8 @@
 
 .color3 {
   background-color: yellow;
+}
+
+.need {
+padding: 30px;
 }
