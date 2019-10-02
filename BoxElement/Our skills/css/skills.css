@@ -1,29 +1,32 @@
 .zero {
-  width: 40%;
+  width: 18%;
 }
 
 .skills {
   width: 100%;
-  height: 400px;
-  background: #2da5da;
+  background: var(--color-light-blue);
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 30px;
 }
 
 .skills .name {
   width: 100%;
-  height: 20%;
+  color: #ffffff;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .skills .name h2 {
   color: #ffffff;
-  margin-left: 15px;
+  margin: 0px;
+  text-align: center;
 }
 
 .skills .statistics {
   width: 100%;
-  height: 60%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -31,45 +34,72 @@
 
 .skills .statistics p {
   color: #ffffff;
-  margin-left: 15px;
 }
 
-.skill .statistics .firstSkill {
+.skills .statistics .firstSkill {
   width: 100%;
-  height: 25%;
+  height: 40px;
   display: flex;
   justify-content: center;
-    background: #336699;
+  flex-direction: column;
+  margin-bottom: 5px;
 }
 
-.skill .statistics .firstSkill .firstSkillScale {
+.skills .statistics .firstSkill .nameOfSkill {
+  width: 100%;
+  height: 95%;
+}
+
+.skills .statistics .firstSkill .nameOfSkill p {
+  margin: auto;
+  align-items: flex-start;
+}
+
+.skills .statistics .firstSkill .firstSkillScale {
+  width: 100%;
+  height: 20%;
+  background-color: #336699;
+}
+
+.skills .statistics .firstSkill .firstSkillScale div {
   width: 80%;
-  height: 5px;
-  background: #336699;
-}
-
-.skill .statistics .firstSkill .firstSkillScale .firstSkillScaleZp {
-  width: 80%;
-  height: 5px;
-  background: #336699;
-}
-
-.skill .statistics .second-skill {
-  width: 100%;
-  height: 25%;
-}
-
-.skill .statistics .third-skill {
-  width: 100%;
-  height: 25%;
-}
-
-.skill .statistics .third-skill {
-  width: 100%;
-  height: 25%;
+  height: 100%;
+  background-color: #d7ed00;
 }
 
 .skills .email-us {
   width: 100%;
-  height: 20%;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.skills .email-us .textbutton {
+  width: 50%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.skills .email-us .textbutton p {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0px;
+  text-align: left;
+}
+
+.skills .email-us .button {
+  width: 50%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-dark-blue);
+}
+
+.skills .email-us .button p {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0px;
 }
