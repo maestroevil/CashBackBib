@@ -9,7 +9,7 @@
       <nav>
           <ul>
             <li><a href="">Главная</a></li>
-            <li><a href=""></a></li>
+            <li><a href="">Часто задаваемые вопросы</a></li>
             <li><a href="">Команда</a></li>
             <li><a href="">Контакты</a></li>
           </ul>
