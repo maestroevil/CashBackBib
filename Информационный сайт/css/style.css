@@ -1,1 +1,93 @@
-fdhsh
+:root {
+  --dark-gray: #232a2d;
+  --black: #000000;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.header-block-name h2 {
+  text-align: center;
+  color: #0B29C2;
+  font-size: 40px;
+}
+
+ul {
+  text-align: right;
+}
+
+ul li  {
+  display: inline-block;
+  padding: 8px 10px 0px 0px;
+}
+
+ul li a p {
+  font-size: 25px;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  color: #201C1C;
+}
+
+p {
+  color: #9a9595;
+}
+
+h1,h3,h4,h5 {
+  color: white;
+}
+
+footer {
+  background-color: var(--dark-gray);
+}
+
+.padding-block {
+  padding: 50px 100px 50px 100px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center p {
+  margin: 0px;
+}
+
+.black {
+  background-color: var(--black);
+}
+.padding-bottom-block-footer{
+  padding: 20px 10px 20px 10px;
+  width: 100%;  
+}
+.padding-bottom-block-footer p {
+  margin:0px;
+}
+
+.hr {
+  margin: 0px;
+  padding-left: 108px;
+  width: 66px;
+  color: #9a9595;
+}
+
+
+.hr a {
+  color: #9a9595;
+}
+
+.feedback input {
+  margin-bottom: 10px;
+  padding-left: 5px;
+  color: #9a9595;
+}
+
+.feedback-input-submit {
+  background-color: #0E4EC3;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
