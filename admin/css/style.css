@@ -1,0 +1,70 @@
+:root {
+	--dark-blue: #22272b;
+	--dark-gray: #3B4047;
+	--white: #d9dde0;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h3 {
+	color: #ffffff;
+	text-align: center;
+}
+
+.nav-menu-left {
+	padding: 0px;
+	background-color: var(--dark-gray);
+}
+
+.nav-menu-left .title {
+	width: 100%;
+	padding: 15px;
+	background-color: var(--dark-blue);
+}
+
+.nav-menu-left .profile {
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-menu-left .profile p {
+	color: #FFFFFF;
+	margin-bottom: 0px;
+}
+
+.nav-menu-left .avatar-selection-first {
+	margin-right: 15px;
+	width: 70px;
+	height: 70px;
+	border-radius: 60%;
+}
+
+.menu-button {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.menu-button .knopka {
+	width: 90%;
+	color: #fff;
+	text-decoration: none;
+	user-select: none;
+	text-align: center;
+	background: var(--dark-gray); 
+	padding: .7em 1.5em;
+}
+
+.menu-button .knopka:hover { 
+	background: var(--dark-blue); 
+}
+
+.menu-button .knopka:active { 
+	background: var(--dark-blue)
+}
