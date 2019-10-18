@@ -1,13 +1,14 @@
 :root {
-	--dark-blue: #22272b;
-	--dark-gray: #3B4047;
+	--dark-blue: #191D21;
+	--dark-gray: #2A2E35;
 	--white: #d9dde0;
 }
 
-body {
+html, body {
+	height: 100%;
 	padding: 0px;
 	margin: 0px;
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 h3 {
@@ -51,8 +52,12 @@ h3 {
 	flex-direction: row;
 }
 
+.menu-button a {
+	font-size: 18px;
+}
+
 .menu-button .knopka {
-	width: 90%;
+	width: 100%;
 	color: #fff;
 	text-decoration: none;
 	user-select: none;
