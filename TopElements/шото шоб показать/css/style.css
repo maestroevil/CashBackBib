@@ -1,0 +1,63 @@
+.main-content {
+	padding: 0px 120px 0px 120px;
+	color: #212529;
+}
+
+h1 {
+	margin: 0px;
+	font-size: 22px;
+	padding: 20px 20px 20px 10px;
+}
+
+.decor {
+	width: 100%;
+    padding: 10px;
+
+}
+
+.pod-decor {
+	width: 100%;
+	border: 2px solid #212529;
+	padding: 65px 45px 58px 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.pod-decor i {
+	display: flex;
+	font-size: 60px;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.pod-decor h2 {
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+
+.pod-decor .text-content {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 5px 20px 0px 20px;
+}
+
+@media screen and (max-width: 1239px) {
+    .pod-decor {
+	padding: 65px 20px 58px 20px;
+
+}
+
+}
+
+@media screen and (max-width: 830px) {
+    .main-content {
+	padding: 0px 55px 0px 55px;
+}
+
+}
+
