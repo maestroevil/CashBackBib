@@ -10,20 +10,47 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.main-contet {
-  padding: 0px 180px 0px 180px;
+
+
+a {
+  color: #9a9595;
 }
 
+p {
+  color: #9a9595;
+}
+
+nav {
+  border-bottom: 1px solid #232a2d33;
+  background: white;
+}
+
+.main-contet {
+  width: 100%;
+  padding: 0px 180px 0px 180px;
+  display: flex;
+}
+
+.header-company-name {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
 .nav-words {
-  display: flex; 
-  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-words a {
+  color: var(--dark-gray);
 }
 
 
 .header-block-name span {
-  color: #0B29C2;
+  color: var(--dark-gray);
   font-size: 40px;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .header-block-name ul li a {
@@ -53,18 +80,6 @@ body {
   margin: 0px;
   padding: 0px;
   color: #201C1C;
-}
-
-a {
-  color: #9a9595;
-}
-
-p {
-  color: #9a9595;
-}
-
-h1,h3,h4,h5 {
-  color: white;
 }
 
 footer {
