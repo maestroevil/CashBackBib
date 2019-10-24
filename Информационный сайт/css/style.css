@@ -10,6 +10,16 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.main-contet {
+  padding: 0px 180px 0px 180px;
+}
+
+.nav-words {
+  display: flex; 
+  align-items: flex-end;
+}
+
+
 .header-block-name span {
   color: #0B29C2;
   font-size: 40px;
