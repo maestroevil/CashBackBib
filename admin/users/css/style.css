@@ -1,6 +1,7 @@
 :root {
 	--dark-blue: #191D21;
 	--dark-gray: #2A2E35;
+	--dark-gray2: #0D1623;
 	--white: #d9dde0;
 }
 
@@ -71,11 +72,15 @@ h3 {
 }
 
 .menu-button .button:hover { 
-	background: var(--dark-blue); 
+	background: var(--dark-blue);
+	border-right: 10px solid #22D740;
+	border-radius: 5px;
 }
 
 .menu-button .button:active { 
-	background: var(--dark-blue)
+	background: var(--dark-gray2);
+	border-right: 10px solid #C32B40;
+	border-radius: 5px;
 }
 
 .schedule {
@@ -86,4 +91,9 @@ h3 {
 .schedule .schedule1 {
 	width: 200px;
 	height: 200px;
+}
+
+.tile_count {
+	width: 100%;
+	background-color: var(--dark-blue);
 }
