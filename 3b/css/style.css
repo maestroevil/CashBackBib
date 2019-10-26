@@ -1,0 +1,41 @@
+:root {
+	--dark-gray: #2A2E35;
+}
+
+html, body {
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.slider {
+	width: 100%;
+	height: 500px;
+	background-image: url(../images/nature.jpg);
+	background-size: 100%;
+}
+
+.slider img {
+	width: 100%;
+}
+
+.product-selection {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.product-selection span {
+	text-transform: uppercase;
+    font-size: 2.6em;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.product-title {
+	text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 1;
+    font-weight: bold;
+}
