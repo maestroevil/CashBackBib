@@ -1,0 +1,35 @@
+:root {
+  --dark-gray: #232a2d;
+  --black: #000000;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+
+a {
+  color: #9a9595;
+}
+
+p {
+  color: #9a9595;
+}
+
+
+.main-content {
+  width: 100%;
+  padding: 0px 100px 0px 100px;
+  display: flex;
+}
+
+.header-company-name {
+  font-size: 40px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
