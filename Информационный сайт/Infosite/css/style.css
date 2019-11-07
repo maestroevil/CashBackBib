@@ -20,16 +20,35 @@ p {
   color: #9a9595;
 }
 
+.navbar {
+  box-shadow: 0px -3px 8px 0px black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: black;
+}
+
 nav li a {
   font-size: 20px;
 }
 
+.first-block {
+  padding-bottom: 400px;
+  width: 100%;
+  background-image: url(../images/phone.png);
+  background-repeat: no-repeat;
+  background-position: 85% 35%;
+  background-size: 280px;
+}
 
 .main-content {
   width: 100%;
   padding: 0px 100px 0px 100px;
   display: flex;
-  box-shadow: 0px -3px 8px 0px black;
 }
 
 .header-company-name {
@@ -46,21 +65,62 @@ nav li a {
   justify-content: flex-end;
 }
 
+.first-block .main-text {
+  padding-top: 50px;
+  color: black;
+}
+
+.first-block .main-text h1 {
+  font-size: 55px;
+}
+
+.first-block .main-text p {
+  color: #333;
+  font-size: 20px;
+}
+
+.first-block .main-text .under-text {
+  padding-top: 15px;
+  max-width: 500px;
+}
+
+.first-block .main-text .p-wrap {
+  padding-top: 25px;
+}
+
+.first-block .main-text .pay-methods {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  padding-left: 15px;
+}
+
+.fst-btn {
+  padding-top: 40px;
+}
+
+
 @media (max-width: 992px) {
   .main-content {
     padding: 0px 70px 0px 70px;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 576px) {
   .header-company-name {
-    font-size: 25px;
+    font-size: 30px;
+  }
+  nav li a {
+    font-size: 17px;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   .main-content {
     padding: 0px 20px 0px 20px;
+  }
+  .navbar-toggler {
+    font-size: 1rem;
   }
 }
 
