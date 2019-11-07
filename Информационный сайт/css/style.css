@@ -10,8 +10,6 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-
-
 a {
   color: #9a9595;
 }
@@ -20,109 +18,115 @@ p {
   color: #9a9595;
 }
 
-nav {
-  border-bottom: 1px solid #232a2d33;
-  background: white;
+.navbar {
+  box-shadow: 0px -3px 8px 0px black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: black;
+}
+
+nav li a {
+  font-size: 20px;
+}
+
+.first-block {
+ padding-bottom: 400px;
+  width: 100%;
 }
 
 .main-content {
   width: 100%;
-  padding: 0px 180px 0px 180px;
+  padding: 0px 100px 0px 100px;
   display: flex;
 }
 
 .header-company-name {
-  display: flex;
-  justify-content: flex-start;
+  font-size: 40px;
+  font-weight: lighter;
+  text-transform: uppercase;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
 
-.nav-words {
-  display: flex;
+.navbar-expand-lg .navbar-collapse{
   justify-content: flex-end;
 }
 
-.nav-words a {
-  color: var(--dark-gray);
+.first-block .main-text {
+  padding-top: 50px;
+  color: black;
 }
 
 
-.header-block-name span {
-  color: var(--dark-gray);
-  font-size: 40px;
-  font-weight: lighter;
+.first-block .main-text h1 {
+  font-size: 55px;
 }
 
-.header-block-name ul li a {
-  text-align: center;
-  font-size: 22px;
+.first-block .main-text p {
+  color: #333;
+  font-size: 20px;
 }
 
-.hr {
-  margin: 0px;
-  padding-left: 108px;
-  width: 66px;
-  color: #9a9595;
+.first-block .main-text .under-text {
+  padding-top: 15px;
+  max-width: 500px;
 }
 
-.hr ul {
-  text-align: right;
+.first-block .main-text .p-wrap {
+  padding-top: 25px;
 }
 
-.hr ul li  {
-  display: inline-block;
-  padding: 8px 10px 0px 0px;
+.first-block .main-text .pay-methods {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  padding-left: 15px;
 }
 
-.hr ul li a {
-  font-size: 25px;
-  align-items: center;
-  margin: 0px;
-  padding: 0px;
-  color: #201C1C;
+.fst-btn {
+  padding-top: 40px;
 }
 
-footer {
-  background-color: var(--dark-gray);
+.img-phone {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
 
-.padding-block {
-  padding: 50px 100px 50px 100px;
+.img-phone img {
+  width: 47%;
+  min-width: 250px;
 }
 
-.center {
-  text-align: center;
+
+@media (max-width: 992px) {
+  .main-content {
+    padding: 0px 70px 0px 70px;
+  }
 }
 
-.center p {
-  margin: 0px;
+@media (max-width: 576px) {
+  .header-company-name {
+    font-size: 30px;
+  }
+  nav li a {
+    font-size: 17px;
+  }
 }
 
-.black {
-  background-color: var(--black);
-}
-.padding-bottom-block-footer{
-  padding: 20px 10px 20px 10px;
-  width: 100%;  
-}
-.padding-bottom-block-footer p {
-  margin:0px;
+@media (max-width: 480px) {
+  .main-content {
+    padding: 0px 20px 0px 20px;
+  }
+  .navbar-toggler {
+    font-size: 1rem;
+  }
 }
 
-.feedback input {
-  margin-bottom: 10px;
-  padding-left: 5px;
-  color: #9a9595;
-}
-
-.feedback .feedback-input-submit {
-  width: 110px;
-  height: 37px;
-  border-radius: 2px;
-  background-color: rgb(34, 80, 159);
-  border: 2px solid rgb(34, 80, 159);
-  color: #fff;
-  font-size: 12px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
