@@ -128,5 +128,10 @@ nav li a {
   .navbar-toggler {
     font-size: 1rem;
   }
+
+  .first-block .main-text h1 {
+  font-size: 40px;
+  }
+
 }
 
