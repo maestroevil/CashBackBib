@@ -183,6 +183,17 @@ nav li a {
 }
 
 .style-block-name input, textarea {
+  margin-bottom: 5px;
+  color: #FFFFFF;
+  background-color: transparent;
+  font: normal normal normal 25px/1.4em 'open sans',sans-serif;
+}
+
+.block-communication-padding {
+  padding-bottom: 25px;
+}
+
+.style-block-communication input, textarea {
   padding: 5px;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 1);
@@ -212,5 +223,29 @@ nav li a {
 
 .footer-color {
   background-color: #1f2945;
-  /*background-color:  #101523;*/
+}
+
+.auto-generated-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.auto-generated-link:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.color-1 {
+  padding: 25px 0px 25px 0px;
+  background-color:  #101523;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.main-content-block {
+  width: 100%;
+  padding: 40px 100px 40px 100px;
+  display: flex;
 }
