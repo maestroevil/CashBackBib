@@ -148,6 +148,10 @@ nav li a {
   font: normal normal normal 25px/1.4em 'open sans',sans-serif;
 }
 
+.block-communication-padding {
+  padding-bottom: 25px;
+}
+
 .style-block-communication input, textarea {
   padding: 5px;
   border: none;
@@ -217,4 +221,10 @@ nav li a {
   background-color:  #101523;
   color: #FFFFFF;
   text-align: center;
+}
+
+.main-content-block {
+  width: 100%;
+  padding: 40px 100px 40px 100px;
+  display: flex;
 }
