@@ -135,3 +135,44 @@ nav li a {
 
 }
 
+.footer-section {
+  margin: 0px 170px 0px 170px;
+}
+
+.footer-section h5 {
+  margin-bottom: 20px;
+  font: normal normal normal 25px/1.4em 'open sans',sans-serif;
+}
+
+.style-block-name input, textarea {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  color: #FFFFFF;
+  margin: 0 0 5px;
+  width: 100%;
+  background-color: transparent;
+  font: normal normal normal 15px/1.4em 'open sans',sans-serif;
+  border-radius: 0;
+}
+
+.style-block-email {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  color: #FFFFFF;
+  margin: 0 0 5px;
+  width: 100%;
+  background-color: transparent;
+  font: normal normal normal 15px/1.4em 'open sans',sans-serif;
+  border-radius: 0;
+}
+
+.ispopzvqfieldMessage {
+  min-height: 128px;
+}
+
+.footer-color {
+  background-color: #1f2945;
+  /*background-color:  #101523;*/
+}
