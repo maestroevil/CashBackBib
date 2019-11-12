@@ -173,11 +173,12 @@ nav li a {
 
 }
 
-.footer-section {
+/*.footer-section {
   margin: 0px 170px 0px 170px;
-}
+}*/
 
 .footer-section h5 {
+  color: #FFFFFF;
   margin-bottom: 20px;
   font: normal normal normal 25px/1.4em 'open sans',sans-serif;
 }
@@ -217,8 +218,17 @@ nav li a {
   border-radius: 0;
 }
 
-.ispopzvqfieldMessage {
+.style-block-message {
   min-height: 128px;
+}
+
+.style-submit {
+  border: none;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: transparent;
 }
 
 .footer-color {
