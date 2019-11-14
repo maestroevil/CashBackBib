@@ -23,7 +23,7 @@ p {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  z-index: 1;
+  z-index: 55;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -172,10 +172,6 @@ nav li a {
    }
 
 }
-
-/*.footer-section {
-  margin: 0px 170px 0px 170px;
-}*/
 
 .footer-section h5 {
   color: #FFFFFF;
