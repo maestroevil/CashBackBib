@@ -55,7 +55,8 @@
 	background-image: url(../images/computer-work.jpg);
 	background-size: 100%;
 	background-attachment:fixed;
-	background-position: left, right;
+	background-position: left, top;
+	background-repeat: no-repeat;
 }
 
 .circle {
