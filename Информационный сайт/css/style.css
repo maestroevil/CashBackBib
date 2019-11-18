@@ -305,7 +305,6 @@ nav li a {
     text-align: center;
   }
 
-<<<<<<< HEAD
 }
 @media (max-width: 380px) {
   .pay-item {
@@ -313,16 +312,14 @@ nav li a {
   }
 }
 /*----------------------Footer----------------------*/
-.footer-section {
-  margin: 0px 170px 0px 170px;
-}
-
-=======
->>>>>>> e5b3c20d156f277ef6009de5f14096e617fde85f
 .footer-section h5 {
   color: #FFFFFF;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font: normal normal normal 25px/1.4em 'open sans',sans-serif;
+}
+
+.footer-section span {
+  color: #FFFFFF;
 }
 
 .style-block-name input, textarea {
