@@ -360,12 +360,18 @@ nav li a {
 }
 
 .style-submit {
+  margin-top: 10px;
   border: none;
   position: relative;
-  width: 100%;
   text-align: center;
   color: #FFFFFF;
   background-color: transparent;
+}
+
+.style-submit:hover {
+  background: rgba(0,0,0,0);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
 }
 
 .footer-color {
