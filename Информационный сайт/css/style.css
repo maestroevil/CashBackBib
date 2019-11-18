@@ -25,6 +25,9 @@ h1,h2,h3,h4,h5,h6 {
 nav li a {
   font-size: 20px;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #007bff;
+  }
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
@@ -136,26 +139,25 @@ nav li a {
   padding-bottom: 40px;
 }
 
-.mobile-app-block .mbl-text {
+.zag-text {
   width: 100%;
   display: flex;
 }
 
-.mobile-app-block .mbl-text h1 {
-  font-size: 50px;
+.mobile-app-block .zag-text h1 {
+  font-size: 40px;
 }
 
 .mobile-app-block .under-mbl {
   width: 100%;
-  font-size: 20px;
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
 .mobile-app-block .under-mbl p {
-  padding-top: 20px;
-  font-size: 22px;
+  padding-top: 0px;
+  font-size: 20px;
   color: var(--gray-dark);
 }
 
@@ -167,7 +169,8 @@ nav li a {
 
 .app-image {
   width: 100%;
-  padding-top: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .mobile-app-block ul.app-use {
@@ -195,6 +198,60 @@ nav li a {
 .mobile-app-block ul.app-use li:hover {
   color: var(--orange);
 }
+
+/*----------------------Client block----------------------*/
+.clients-block {
+  background-color: var(--gray-dark);
+  color: white;
+}
+
+.decor {
+  width: 100%;
+  padding: 10px;
+
+}
+
+.pod-decor {
+  width: 100%;
+  border: 2px solid var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.pod-decor i {
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.pod-decor h2 {
+  padding-top: 10px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+
+.pod-decor .text-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 20px 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 991px) {
