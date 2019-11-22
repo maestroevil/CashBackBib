@@ -20,6 +20,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
   color: white;
+  font-weight: bolder;
 }
 
 nav li a {
@@ -76,6 +77,7 @@ nav li a {
 
 .first-block  .header-text h1 {
   font-size: 55px;
+  font-weight: normal;
 }
 
 .under-text {
@@ -200,9 +202,14 @@ nav li a {
 }
 
 /*----------------------Client block----------------------*/
+
 .clients-block {
   background-color: var(--gray-dark);
   color: white;
+}
+
+.clients-block .zag-text {
+  padding-bottom: 30px;
 }
 
 .decor {
@@ -243,15 +250,79 @@ nav li a {
   padding: 5px 20px 0px 20px;
 }
 
+/*----------------------Client block----------------------*/
+
+.join-cp h1 {
+  color: black;
+  padding-bottom: 30px;
+}
+
+.join-cp h1 span {
+  border-bottom: 5px dashed black;
+}
+
+.join-cp h2 {
+  margin: 0;
+}
+
+.c-dot {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+}
+
+.dot_blue {
+  background-color: #007cd4;
+}
+
+.dot_orange {
+  background-color: #f6770b;
+}
+
+.dot_green {
+  background-color: #41ca09;
+}
 
 
+@media (max-width: 885px) {
+  .c-dot {
+    display: none;
+  }
 
+  .join-cp h2 {
+    width: 100%;
+    padding: 10px 14px 10px 14px;
+    border: 1px solid #00000026;
+    background-color: whitesmoke;
+  }
 
+  .join-cp .box-blue {
+  background-color: #0095ff59;
+}
 
+  .join-cp .box-orange {
+  background-color: #f66c0b59;
+}
 
+  .join-cp .box-green {
+  background-color: #41ca0963;
+}
 
+}
 
-
+.join-cp h2 {
+  display: inline-flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 27px;
+}
 
 
 @media (max-width: 991px) {
@@ -299,6 +370,12 @@ nav li a {
 
   .mobile-app-block .under-mbl p {
     font-size: 18px;
+  }
+
+  .c-dot {
+    margin-right: 12px;
+    width: 45px;
+    height: 45px;
   }
 
 }
