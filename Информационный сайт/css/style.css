@@ -49,12 +49,6 @@ nav li a {
   padding-top: 15px;  
 }
 
-.wrap {
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 /*----------------------First block----------------------*/
 
 .bg-1 {
@@ -529,22 +523,4 @@ nav li a {
   background-color:  #101523;
   color: #FFFFFF;
   text-align: center;
-}
-
-.main-content-block {
-  width: 100%;
-  padding: 40px 100px 40px 100px;
-  display: flex;
-}
-
-@media (max-width: 991px) {
-  .main-content-block {
-    padding: 20px 70px 20px 70px;
-  }
-}
-
-@media (max-width: 576px) {
-  .main-content-block {
-    padding: 0px 20px 0px 20px;
-  }
 }

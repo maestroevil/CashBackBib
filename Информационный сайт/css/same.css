@@ -15,3 +15,38 @@
     padding: 0px 20px 0px 20px;
   }
 }
+
+.wrap {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.loader {
+	width: 100%;
+	height: 100%;
+	background-color: #08615e;
+	z-index: 9999;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+}
+
+.loader .loader-inner {
+  	height: 200px;
+  	width: 200px;
+  	margin-top: 15%;
+	background-image: url("../images/kosmos.gif");
+  	background-size: cover;
+ 	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-color: #fff;
+    position: absolute;
+}
+
+.loader span {
+    padding-top: 430px;
+    font-size: 42px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
