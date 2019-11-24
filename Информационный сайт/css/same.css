@@ -1,3 +1,5 @@
+/*----------------------Padding left-right----------------------*/
+
 .main-content {
   width: 100%;
   padding: 0px 100px 0px 100px;
@@ -16,11 +18,15 @@
   }
 }
 
+/*----------------------Padding top-bottom----------------------*/
+
 .wrap {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/*----------------------Loader----------------------*/
 
 .loader {
 	width: 100%;
