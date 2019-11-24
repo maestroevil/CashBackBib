@@ -8,11 +8,12 @@
 	display: flex;
 	justify-content: center;
   	font-size: 25px;
+  	margin-top: 4px;
 }
 
 .social-text h3 {
 	text-align: center;
-	font-size: 52px;
+	font-size: 44px;
 }
 
 .social-text p {
