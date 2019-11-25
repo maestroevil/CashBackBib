@@ -144,47 +144,17 @@
     letter-spacing: 0;
 }
 
-
-
-/*.info {
-	min-height: 104px;
+@media (max-width: 991px) {
+	.info-block .info-content h3 {
+		font-size: 14px;
+	}
 }
 
-.z1 {
-	margin: 10px 0;
+@media (max-width: 576px){
+	.info-block .info-content h3 {
+		font-size: 13px;
+    }
 }
-
-.info .info-icon {
-	display: inline-block;
-	padding: 7px 11px 0 1px;
-}
-
-.info .info-icon .circle-point {
-	width: 8px;
-	height: 8px;
-	border-radius: 100%;
-	background-color: #E29213;
-}
-
-.info .info-content {
-	display: inline-block;
-}
-
-.info .info-content .info-title {
-	margin-top: 10px;
-	font-size: 21px;
-	letter-spacing: 0;
-	font-weight: 600;
-}
-
-.info .info-content .info-desc {
-	display: inline-block;
-}
-
-.info .info-content .info-desc a {
-	font-weight: 500;
-    color: #666;
-}*/
 
 /*----------------------Social block----------------------*/
 
