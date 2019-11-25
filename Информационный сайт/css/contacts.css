@@ -118,7 +118,35 @@
 
 /*---------General information block---------*/
 
-.info {
+.info-block {
+	display: flex;
+	justify-content: center;
+}
+
+.info-block .circle-point {
+	width: 8px;
+	height: 8px;
+	margin-top:8px;
+	border-radius: 100%;
+	background-color: #E29213;
+}
+
+.info-block .info-content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 3%;
+}
+
+.info-block .info-content h3 {
+	font-size: 18px;
+	font-weight: 700;
+    letter-spacing: 0;
+}
+
+
+
+/*.info {
 	min-height: 104px;
 }
 
@@ -156,7 +184,7 @@
 .info .info-content .info-desc a {
 	font-weight: 500;
     color: #666;
-}
+}*/
 
 /*----------------------Social block----------------------*/
 
