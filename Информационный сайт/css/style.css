@@ -24,7 +24,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 nav li a {
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 430;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: #007bff;
@@ -487,11 +488,15 @@ nav li a {
   min-height: 128px;
 }
 
+.submit-block {
+  display: flex;
+  justify-content: center;
+}
+
 .style-submit {
   margin-top: 10px;
   border: none;
   position: relative;
-  text-align: center;
   color: #FFFFFF;
   background-color: transparent;
 }

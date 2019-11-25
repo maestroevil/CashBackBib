@@ -118,7 +118,35 @@
 
 /*---------General information block---------*/
 
-.info {
+.info-block {
+	display: flex;
+	justify-content: center;
+}
+
+.info-block .circle-point {
+	width: 8px;
+	height: 8px;
+	margin-top:8px;
+	border-radius: 100%;
+	background-color: #E29213;
+}
+
+.info-block .info-content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 3%;
+}
+
+.info-block .info-content h3 {
+	font-size: 18px;
+	font-weight: 700;
+    letter-spacing: 0;
+}
+
+
+
+/*.info {
 	min-height: 104px;
 }
 
@@ -156,18 +184,20 @@
 .info .info-content .info-desc a {
 	font-weight: 500;
     color: #666;
-}
+}*/
 
 /*----------------------Social block----------------------*/
 
 .social-text h3 {
 	text-align: center;
-	font-size: 44px;
+	font-size: 32px;
 }
+
+
 
 .social-text p {
 	text-align: center;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .block-social-networks {
@@ -206,6 +236,7 @@
 	.social-block-middle {
 		width: 50px;
     	height: 50px;
+    	padding: 8px 0px;
 	}
 }
 
@@ -213,6 +244,7 @@
 	.social-block-middle {
 		width: 50px;
     	height: 50px;
+    	padding: 7px 0px;
     }
 }
 
@@ -221,4 +253,20 @@
 	justify-content: center;
   	font-size: 25px;
   	margin-top: 4px;
+}
+
+@media (max-width: 991px) {
+	.social-block-middle i {
+		width: 50px;
+    	height: 50px;
+    	margin-top: 2px;
+	}
+}
+
+@media (max-width: 576px){
+	.social-block-middle i {
+		width: 50px;
+    	height: 50px;
+    	margin-top: 2px;
+    }
 }
