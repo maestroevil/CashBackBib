@@ -16,25 +16,5 @@
                         </li>";
                 }
             ?>
-            <!-- </ul>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Мобильный кошелёк</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="mobile-terminal.html">Мобильный терминал</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Сотрудничество</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Команда</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Поддержка проекта</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacts.html">Контакты</a>
-                </li>
-            </ul> -->
         </div>
     </nav>
