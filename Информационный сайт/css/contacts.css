@@ -118,9 +118,19 @@
 
 /*---------General information block---------*/
 
+.info {
+	padding-bottom: 13px;
+}
+
 .info-block {
 	display: flex;
-	justify-content: center;
+	min-height: 104px;
+}
+
+@media (max-width: 991px) {
+	.info-block {
+		min-height: 74px;
+	}
 }
 
 .info-block .circle-point {
@@ -133,12 +143,12 @@
 
 .info-block .info-content {
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
 	padding-left: 3%;
 }
 
 .info-block .info-content h3 {
+	margin-bottom: 0px;
 	font-size: 18px;
 	font-weight: 700;
     letter-spacing: 0;
@@ -156,14 +166,31 @@
     }
 }
 
+.info-block .info-content p {
+	margin-top: 8px;
+	margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.circle-point-green {
+	width: 8px;
+	height: 8px;
+	margin-top:8px;
+	border-radius: 100%;
+	background-color: #1AC01A;
+}
+
 /*----------------------Social block----------------------*/
+
+.social-background {
+	background-color: #f5f7fa;
+}
 
 .social-text h3 {
 	text-align: center;
 	font-size: 32px;
 }
-
-
 
 .social-text p {
 	text-align: center;
