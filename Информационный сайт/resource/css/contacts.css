@@ -1,8 +1,17 @@
+:root{
+	--color-light-purple:#D416EB;
+	--color-dark-violet:#691064;
+}
+
+.gradient-light-dark-blue{
+	background: linear-gradient(220deg,var(--color-light-purple),var(--color-dark-violet));	
+}
+
 /*-----------Circle block--------------*/
 
 .section-bg-work {
 	height: 550px;
-	background-image: url(../images/2354873.jpg);
+	background-image: url(../images/starslov.jpg);
 	background-size: cover;
 	background-attachment:fixed;
 	background-repeat: no-repeat;
@@ -24,7 +33,6 @@
 	position: absolute;
     z-index: 50;
     border-radius: 100%;
-	background-color: #00b4d4;
 }
 
 .circle h1 {
@@ -91,8 +99,8 @@
 .circle1 {
 	width: 600px;
 	height: 600px;
-	top: -90;
-	left: 100;
+	top: -90px;
+	left: 100px;
     padding-top: 200px;
 }
 
