@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>CosmoPay</title>
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i,600,600i,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
@@ -15,7 +17,6 @@
     <link rel="stylesheet" type="text/css" href="resource/css/style.css">
     <link rel="stylesheet" type="text/css" href="resource/css/contacts.css">
     <link rel="stylesheet" type="text/css" href="resource/css/same.css">
-    <link rel="stylesheet" type="text/css" href="resource/css/mobile-wallet.css">
 </head>
 <body>
         <!-- loader -->
