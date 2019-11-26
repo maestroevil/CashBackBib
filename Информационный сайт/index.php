@@ -14,7 +14,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/b155e1d7ec.js" crossorigin="anonymous"></script>
     <!-- styles -->
-    <link rel="stylesheet" type="text/css" href="resource/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resource/css/styles.css">
     <link rel="stylesheet" type="text/css" href="resource/css/contacts.css">
     <link rel="stylesheet" type="text/css" href="resource/css/same.css">
 </head>
