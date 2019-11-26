@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="zag-text">
                     <div class="col-sm-12 center-pos">
-                        <h1>Кому подойдет наш сервис</h1>
+                        <h1>Почему CosmoPay?</h1>
                     </div>
                 </div>
             </div>
