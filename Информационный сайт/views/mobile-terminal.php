@@ -1,7 +1,7 @@
 <div class="container-fluid main-content bg-1">
         <div class="first-block">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-7 order-lg-first order-last">
+                <div class="col-sm-12 col-md-12 col-lg-7 order-lg-first order-first">
                     <div class="header-text">
                         <div class="col-md-12">
                             <h1>Мобильный эквайринг</h1>
@@ -14,13 +14,16 @@
                             <p>Подключите мобильный терминал <strong>CosmoPay</strong> к смартфону и принимайте к оплате Apple Pay, Samsung Pay, Google Pay, а также другие методы.</p>
                         </div>
                         <div class="col-sm-12 fst-btn">
-                                <button type="button" class="btn btn-primary btn-lg btn-fb">Присоединиться</button>
+                            <div class="">
+                                <button type="button" class="btn btn-primary btn-lg">Присойдениться</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 order-lg-last order-first">
                     <div class="img-phone">
-                        <img src="resource/images/spacemanlov.png" alt="phone" class="img-fluid phone-md-lg">
+                        <img src="resource/images/phone-md-lg.png" alt="phone" class="img-fluid phone-md-lg">
+                        <img src="resource/images/phome-sm.png" alt="phone" class="img-fluid phone-sm">
                     </div>
                 </div>
             </div>
@@ -60,10 +63,10 @@
                     </div>
                 </div>
             </div>
-            <div class="app-wrap">
+            <div class="app-image">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 center-pos">
-                        <img src="resource/images/tabletPhone.png" alt="phone" class="img-fluid img-app">
+                        <img src="resource/images/phome-sm.png" alt="phone" class="img-fluid">
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <ul class="app-use">
@@ -170,7 +173,7 @@
         </div>
     </div>
 
-    <div class="container-fluid main-content join-cp">
+    <div class="container-fluid main-content join-cp" style="padding-bottom: 300px;">
         <div class="wrap">
             <div class="row">
                 <div class="col-sm-12 center-pos">
