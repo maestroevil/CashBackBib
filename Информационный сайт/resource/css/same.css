@@ -56,3 +56,42 @@
     color: #FFFFFF;
     font-weight: 500;
 }
+
+
+/*Evgeniy*/
+
+.error-404{
+  color: white;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  padding: 100px;
+  background-image: url("/resource/images/bg-404.jpg");
+
+}
+.error-404 img{
+  width: 400px;
+  text-align: center;
+}
+.error-404 .bord{
+  background-color: white;
+  padding: 50px;
+  border-radius: 30px;
+}
+.error-404 h1 {
+  font-size: 10em;
+   margin-bottom:0px;
+}
+.error-404 h2{
+  color: black;
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
+ 
+}
+.error-404 h3{
+margin-top: 0px;
+}
+.error-404 h1,h2,h3 {
+  text-align: center;
+  color: white;
+}
