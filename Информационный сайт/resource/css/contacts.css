@@ -1,6 +1,6 @@
 :root{
-	--color-light-purple:#D416EB;
-	--color-dark-violet:#691064;
+	--color-light-purple: #D416EB;
+	--color-dark-violet: #691064;
 }
 
 .gradient-light-dark-blue{
@@ -11,7 +11,7 @@
 
 .section-bg-work {
 	height: 550px;
-	background-image: url(../images/starslov.jpg);
+	background-image: url(../images/space-stars1.jpg);
 	background-size: cover;
 	background-attachment:fixed;
 	background-repeat: no-repeat;
@@ -25,6 +25,7 @@
 
 @media (max-width: 576px){
 	.section-bg-work {
+		height: 300px;
     }
 }
 
@@ -49,7 +50,9 @@
 
 @media (max-width: 576px) {
 	.circle h1 {
-		font-size: 18px;
+		margin: 0px;
+		padding-bottom: 22px;
+		font-size: 16px;
 	}
 }
 
@@ -66,12 +69,6 @@
 	.circle p {
 		font-size: 14px;
 		padding: 0px 40px 0px 40px;
-	}
-}
-
-@media (max-width: 576px) {
-	.circle p {
-		font-size: 15px;
 	}
 }
 
@@ -92,6 +89,7 @@
 
 @media (max-width: 576px) {
 	.circle a {
+		padding: 6px 29px;
 		font-size: 15px;
 	}
 }
@@ -121,6 +119,7 @@
     	height: 389px;
 		top: -163px;
     	left: -126px;
+    	padding-top: 230px
     }
 }
 
@@ -189,7 +188,26 @@
 	background-color: #1AC01A;
 }
 
-/*----------------------Social block----------------------*/
+/*-------------------map block-------------------*/
+
+.map {
+	width: 100%;
+	height: 600px;
+}
+
+@media (max-width: 991px) {
+	.map {
+		height: 500px;
+	}
+}
+
+@media (max-width: 576px) {
+	.map {
+		height: 400px;
+	}
+} 
+
+/*------------------Social block-------------------*/
 
 .social-background {
 	background-color: #f5f7fa;
